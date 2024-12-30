@@ -3,8 +3,8 @@
 演示视频：【【项目示例】Python脚本实现自动创建连接ENSP的MobaXterm会话】 https://www.bilibili.com/video/BV1SkqHY5E4H/?share_source=copy_web&vd_source=59e023c51012d18c6921a150c80bc134
 ## 解答
 ### 我该如何下载脚本
-1.0.0版本下载链接：https://github.com/honor260703/ENSP---MobaXterm---Session---AutoCreator/releases/download/v1.0.0/V1.0.0.zip
-
+1.0.0版本（这个很快，但需要Python环境）下载链接：https://github.com/honor260703/ENSP---MobaXterm---Session---AutoCreator/releases/download/v1.0.0/V1.0.0.zip
+2.0.0版本（这个运行比较慢，但只需要运行EXE程序即可）下载链接：https://github.com/honor260703/ENSP---MobaXterm---Session---AutoCreator/releases/download/v2.0.0/ENSP.exe
 ### 这个脚本能干什么？有什么意义？
 
 如果你的拓扑图很大、设备又很多了话，那我强烈推荐你使用这个脚本，把脚本放置在保存好的拓扑文件夹根路径下，运行此脚本，脚本会自动分析<你的拓扑名>.topo文件中的拓扑结构信息，并能够自动生成一个名为“MobaXterm Sessions.mxtsessions”的MobaXterm会话文件，进而实现批量创建连接至ENSP模拟器的Telnet会话，无需手动创建。此外，该脚本还可生成名为“设备信息表”的xlsx表格，表格内容包含设备名、设备端口号、设备MAC地址、SN码以及设备ID。 从第三方远程连接工具连接到网络设备的CLI（命令行界面）之后，能够更直观地查看设备输出信息，如下所示：
