@@ -4,6 +4,7 @@
 ## 解答
 ### 我该如何下载脚本
 1.0.0版本（这个很快，但需要Python环境）下载链接：https://github.com/honor260703/ENSP---MobaXterm---Session---AutoCreator/releases/download/v1.0.0/V1.0.0.zip
+
 2.0.0版本（这个运行比较慢，但只需要运行EXE程序即可）下载链接：https://github.com/honor260703/ENSP---MobaXterm---Session---AutoCreator/releases/download/v2.0.0/ENSP.exe
 ### 这个脚本能干什么？有什么意义？
 
